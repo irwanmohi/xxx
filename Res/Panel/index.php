@@ -143,7 +143,7 @@ if (isset($_POST['user']))
         	}
         site_name();     
     </script>
-<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/dopekid30/-generate-sa-idnumbers/master/Dopekid.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Panel/logo.ico">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/<?php echo $site_template;?>/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -152,7 +152,7 @@ if (isset($_POST['user']))
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
 <a class="navbar-brand" href="/">
-  <img src="https://raw.githubusercontent.com/dopekid30/-generate-sa-idnumbers/master/Dopekid.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+  <img src="https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Panel/logo.ico" width="30" height="30" class="d-inline-block align-top" alt="">
   <?php echo $site_name;?>
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
