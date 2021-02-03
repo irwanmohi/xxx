@@ -76,7 +76,7 @@ wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/lanundarat87/xx
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/vps.conf"
 wget -O /etc/nginx/conf.d/monitoring.conf "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/monitoring.conf"
 mkdir -p /home/vps/public_html
-wget -O /home/vps/public_html/index.php "https://raw.githubusercontent.com/dopekid30/AutoScriptDebian9/main/Res/Panel/index.php"
+wget -O /home/vps/public_html/index.php "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Panel/index.php"
 sed -i 's/listen = \/run\/php\/php7.0-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php/7.0/fpm/pool.d/www.conf
 service php7.0-fpm restart
 service nginx restart
