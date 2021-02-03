@@ -4,9 +4,9 @@ $site_name        = "BLACK VPS";
 $site_description = "Premium VPN/SSH/SSL Accounts Fast And Reliable Servers";
 $site_template    = "flatly"; // (flatly, darkly, sketchy, lumen, materia)
 $site_ip_address = "serverip"; // set site ip
-$site_paypal = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5MSCPA9T748GL"; // set site paypal donate link
-$site_contact = "https://m.facebook.com/joash.singh.90"; // set site contact us link
-$daily_limit_user = "90"; // set daily limit
+$site_paypal = "https://paypal.me/badboy897"; // set site paypal donate link
+$site_contact = "https://t.me/badboy897"; // set site contact us link
+$daily_limit_user = "40"; // set daily limit
 
 
 /* Server Data */
@@ -14,7 +14,7 @@ $daily_limit_user = "90"; // set daily limit
 /* Example: 1=>array(1=>"DopeKid Server 1","123.456.789","DopeKid","5"), */
 
 $server_lists_array=array(
-			1=>array(1=>"servername","serverip","serverpass","5"),
+			1=>array(1=>"servername","serverip","serverpass","3"),
 	);			
 
 
@@ -79,7 +79,7 @@ if (isset($_POST['user']))
 		if( !$error) 
 			{
 				date_default_timezone_set('UTC');
-				date_default_timezone_set("Africa/Johannesburg"); 
+				date_default_timezone_set("Asia/Kuala_Lumpur"); 
 				$my_date = date("Y-m-d H:i:s"); 
 				$connection = ssh2_connect($hosts, 22);
 				if (ssh2_auth_password($connection, 'root', $root_pass)) 
