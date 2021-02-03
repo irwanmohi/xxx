@@ -190,7 +190,7 @@ if (isset($_POST['user']))
 										echo '<tr>'; echo '<td>Dropbear Port</td>'; echo '<td>'; echo $port_dropbear; echo '</td>'; echo '</tr>';
 										echo '<tr>'; echo '<td>SSL Port</td>'; echo '<td>'; echo $port_ssl; echo '</td>'; echo '</tr>';
 										echo '<tr>'; echo '<td>Squid Port</td>'; echo '<td>'; echo $port_squid; echo '</td>'; echo '</tr>';
-										echo '<tr>'; echo '<td>OpenVPN Config</td>'; echo '<td>';echo '<a href="http://';echo $hosts; echo ":80"; echo "/"; echo "black.ovpn"; echo'">download config</a>'; echo '</td>'; echo '</tr>';
+										echo '<tr>'; echo '<td>OpenVPN Config</td>'; echo '<td>';echo '<a href="http://';echo $hosts; echo "/"; echo "black.ovpn"; echo'">download config</a>'; echo '</td>'; echo '</tr>';
 										echo '<tr>'; echo '<td>Expiration Date</td>'; echo '<td>'; echo $datess; echo '</td>'; echo '</tr>';																							
 										echo '<tr>'; echo '<td> </td>'; echo '<td> </td>'; echo '</tr>';
 										echo '</table>';
