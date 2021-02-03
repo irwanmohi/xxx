@@ -22,7 +22,7 @@ apt-get -y install wget && wget https://raw.githubusercontent.com/dopekid30/Auto
 
 - V2ray Panel - http://VPSIP:65432/
 
-- Simple Panel - http://VPSIP:85/
+- Simple Panel - http://VPSIP:80/
 
 - Openvpn Monitor - http://VPSIP:89/
 
@@ -37,13 +37,13 @@ apt-get -y install wget && wget https://raw.githubusercontent.com/dopekid30/Auto
 
 - Stunnel/4 : 444
 
-- Dropbear : 80, 109, 110 & 442
+- Dropbear : 109, 110 & 442
 
 - Squid Proxy : 3128, 8000, 8080 & 8888
 
 - Badvpn : 7300
 
-- Nginx : 85
+- Nginx : 80
 
 
 ### Server Tools:
@@ -69,6 +69,6 @@ V2ray panel password and username
 ### Need Decrypted Script?
 Contact Me Facebook or Telegram 
 
-- Telegram: https://t.me/Joash_Singh
+- Telegram: https://t.me/badboy897
 
 - Facebook: Joash Singh
