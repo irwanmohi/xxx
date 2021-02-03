@@ -72,9 +72,9 @@ echo "screenfetch" >> .profile
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/dopekid30/AutoScriptDebian9/main/Res/Other/nginx.conf"
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/dopekid30/AutoScriptDebian9/main/Res/Other/vps.conf"
-wget -O /etc/nginx/conf.d/monitoring.conf "https://raw.githubusercontent.com/dopekid30/AutoScriptDebian9/main/Res/Other/monitoring.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/nginx.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/vps.conf"
+wget -O /etc/nginx/conf.d/monitoring.conf "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/monitoring.conf"
 mkdir -p /home/vps/public_html
 wget -O /home/vps/public_html/index.php "https://raw.githubusercontent.com/dopekid30/AutoScriptDebian9/main/Res/Panel/index.php"
 sed -i 's/listen = \/run\/php\/php7.0-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php/7.0/fpm/pool.d/www.conf
@@ -439,6 +439,6 @@ echo "   - V2ray Panel             : http://$MYIP:65432/"  | tee -a log-install.
 echo "   - Webmin                  : http://$MYIP:10000/"  | tee -a log-install.txt
 echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "----------------- Script By Dope~kid(fb.com/joash.singh.90) -----------------"
-echo "                              Script By Dope~kid                             "
+echo "----------------- Script By Dope~kid(https://t.me/badboy897) -----------------"
+echo "                              Script By Black                             "
 echo "-----------------------------------------------------------------------------"
