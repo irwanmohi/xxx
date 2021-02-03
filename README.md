@@ -21,11 +21,11 @@ apt-get -y install wget && wget https://raw.githubusercontent.com/lanundarat87/x
 
 - V2ray Panel - http://VPSIP:65432/
 
-- Simple Panel - http://VPSIP:80/
+- Simple Panel - http://VPSIP/
 
 - Openvpn Monitor - http://VPSIP:89/
 
-- OVPN Config - http://VPSIP/black.ovpn | http://VPSIP/DopekidVPN.tar.gz or http://VPSIP/Dopekid.tar.gz
+- OVPN Config - http://VPSIP/black.ovpn | http://VPSIP/blackVPN.tar.gz or http://VPSIP/black.tar.gz
 
 
 ### Service and Port Informations:
