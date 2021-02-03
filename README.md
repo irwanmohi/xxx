@@ -26,7 +26,7 @@ apt-get -y install wget && wget https://raw.githubusercontent.com/dopekid30/Auto
 
 - Openvpn Monitor - http://VPSIP:89/
 
-- OVPN Config - http://VPSIP:85/Dopekid.ovpn | http://VPSIP:85/DopekidVPN.tar.gz or http://VPSIP:85/Dopekid.tar.gz
+- OVPN Config - http://VPSIP/black.ovpn | http://VPSIP/DopekidVPN.tar.gz or http://VPSIP/Dopekid.tar.gz
 
 
 ### Service and Port Informations:
@@ -71,4 +71,4 @@ Contact Me Facebook or Telegram
 
 - Telegram: https://t.me/badboy897
 
-- Facebook: Joash Singh
+- Facebook: MOHD FAIZAL MD KASSIM
