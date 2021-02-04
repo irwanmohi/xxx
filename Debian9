@@ -520,6 +520,6 @@ echo "   - V2ray Panel             : http://$MYIP:65432/"  | tee -a log-install.
 echo "   - Webmin                  : http://$MYIP:10000/"  | tee -a log-install.txt
 echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "----------------- Script By Dope~kid(https://t.me/badboy897) -----------------"
+echo "----------------- Script By Black(https://t.me/badboy897) -----------------"
 echo "                              Script By Black                             "
 echo "-----------------------------------------------------------------------------"
