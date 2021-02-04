@@ -365,6 +365,7 @@ cd /usr/bin
 wget https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Menu/AutoScript_Menu.tar.gz
 tar -xzvf AutoScript_Menu.tar.gz
 rm AutoScript_Menu.tar.gz
+sed -i -e 's/\r$//' menu
 sed -i -e 's/\r$//' accounts
 sed -i -e 's/\r$//' bench-network
 sed -i -e 's/\r$//' clearcache
@@ -407,6 +408,7 @@ echo "*0 */2 * * * root clearcache" > /etc/cron.d/clearcache
 
 # Set Permissions
 cd /usr/bin
+chmod +x menu
 chmod +x create
 chmod +x accounts
 chmod +x create
