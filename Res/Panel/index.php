@@ -14,7 +14,7 @@ $daily_limit_user = "90"; // set daily limit
 /* Example: 1=>array(1=>"DopeKid Server 1","123.456.789","DopeKid","5"), */
 
 $server_lists_array=array(
-			1=>array(1=>"servername","serverip","serverpass","3"),
+			1=>array(1=>"BlackVPN","xxxxxxxxx","saC090988lanun","3"),
 	);			
 
 
