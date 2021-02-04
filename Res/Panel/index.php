@@ -6,7 +6,7 @@ $site_template    = "flatly"; // (flatly, darkly, sketchy, lumen, materia)
 $site_ip_address = "serverip"; // set site ip
 $site_paypal = "https://paypal.me/badboy897"; // set site paypal donate link
 $site_contact = "https://t.me/badboy897"; // set site contact us link
-$daily_limit_user = "40"; // set daily limit
+$daily_limit_user = "90"; // set daily limit
 
 
 /* Server Data */
