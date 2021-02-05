@@ -250,6 +250,10 @@ systemctl start v2-ui
 systemctl enable v2-ui
 systemctl status --no-pager v2-ui
 
+# Install PPTPVPN
+wget https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/install.sh
+sudo bash install.sh
+
 # installing webmin
 wget "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/webmin_1.801_all.deb"
 dpkg --install webmin_1.801_all.deb;
