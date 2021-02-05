@@ -361,51 +361,12 @@ iptables-restore < /etc/iptables.up.rules
 cd
 apt-get install -y libxml-parser-perl
 
-# Download Commands
-cd /usr/bin
-wget https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Menu/AutoScript_Menu.tar.gz
-tar -xzvf AutoScript_Menu.tar.gz
-rm AutoScript_Menu.tar.gz
-sed -i -e 's/\r$//' menu
-sed -i -e 's/\r$//' accounts
-sed -i -e 's/\r$//' bench-network
-sed -i -e 's/\r$//' clearcache
-sed -i -e 's/\r$//' connections
-sed -i -e 's/\r$//' create
-sed -i -e 's/\r$//' create_random
-sed -i -e 's/\r$//' create_trial
-sed -i -e 's/\r$//' delete_expired
-sed -i -e 's/\r$//' diagnose
-sed -i -e 's/\r$//' edit_dropbear
-sed -i -e 's/\r$//' edit_openssh
-sed -i -e 's/\r$//' edit_openvpn
-sed -i -e 's/\r$//' edit_ports
-sed -i -e 's/\r$//' edit_squid
-sed -i -e 's/\r$//' edit_stunnel4
-sed -i -e 's/\r$//' locked_list
-sed -i -e 's/\r$//' menu
-sed -i -e 's/\r$//' options
-sed -i -e 's/\r$//' ram
-sed -i -e 's/\r$//' reboot_sys
-sed -i -e 's/\r$//' reboot_sys_auto
-sed -i -e 's/\r$//' restart_services
-sed -i -e 's/\r$//' server
-sed -i -e 's/\r$//' set_multilogin_autokill
-sed -i -e 's/\r$//' set_multilogin_autokill_lib
-sed -i -e 's/\r$//' show_ports
-sed -i -e 's/\r$//' speedtest
-sed -i -e 's/\r$//' user_delete
-sed -i -e 's/\r$//' user_details
-sed -i -e 's/\r$//' user_details_lib
-sed -i -e 's/\r$//' user_extend
-sed -i -e 's/\r$//' user_list
-sed -i -e 's/\r$//' user_lock
-sed -i -e 's/\r$//' user_unlock
-
-# AutoReboot Tools
-echo "10 0 * * * root /usr/local/bin/reboot_sys" > /etc/cron.d/reboot_sys
-echo "0 1 * * * root delete_expired" > /etc/cron.d/delete_expired
-echo "*0 */2 * * * root clearcache" > /etc/cron.d/clearcache
+#import menu
+apt-get install unzip
+cd /usr/local/bin/
+wget "https://github.com/lanundarat87/AutoScriptDS-1/raw/master/Files/Menu/bashmenu.zip" 
+unzip bashmenu.zip
+chmod +x /usr/local/bin/*
 
 # Set Permissions
 cd /usr/bin
