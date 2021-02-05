@@ -367,6 +367,7 @@ cd /usr/bin/
 wget "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Menu/bashmenu.zip" 
 unzip bashmenu.zip
 chmod +x /usr/bin/*
+sed -i $MYIP2 /usr/bin/user-add-pptp;
 rm bashmenu.zip
 
 # finishing
