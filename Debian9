@@ -363,10 +363,10 @@ apt-get install -y libxml-parser-perl
 
 #import menu
 apt-get install unzip
-cd /usr/local/bin/
+cd /usr/bin/
 wget "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Menu/bashmenu.zip" 
 unzip bashmenu.zip
-chmod +x /usr/local/bin/*
+chmod +x /usr/bin/*
 
 # finishing
 cd
