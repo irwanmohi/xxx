@@ -367,7 +367,6 @@ cd /usr/bin/
 wget "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Menu/bashmenu.zip" 
 unzip bashmenu.zip
 chmod +x /usr/bin/*
-sed -i -e 's/\r$//' /usr/bin/*
 rm bashmenu.zip
 
 # finishing
