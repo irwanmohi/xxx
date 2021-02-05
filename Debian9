@@ -364,47 +364,9 @@ apt-get install -y libxml-parser-perl
 #import menu
 apt-get install unzip
 cd /usr/local/bin/
-wget "https://github.com/lanundarat87/AutoScriptDS-1/raw/master/Files/Menu/bashmenu.zip" 
+wget "https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Menu/bashmenu.zip" 
 unzip bashmenu.zip
 chmod +x /usr/local/bin/*
-
-# Set Permissions
-cd /usr/bin
-chmod +x menu
-chmod +x create
-chmod +x accounts
-chmod +x create
-chmod +x create_random
-chmod +x create_trial
-chmod +x user_list
-chmod +x user_details
-chmod +x user_details_lib
-chmod +x user_extend
-chmod +x user_delete
-chmod +x user_lock
-chmod +x user_unlock
-chmod +x connections
-chmod +x delete_expired
-chmod +x locked_list
-chmod +x options
-chmod +x set_multilogin_autokill
-chmod +x set_multilogin_autokill_lib
-chmod +x restart_services
-chmod +x edit_ports
-chmod +x show_ports
-chmod +x edit_openssh
-chmod +x edit_dropbear
-chmod +x edit_stunnel4
-chmod +x edit_openvpn
-chmod +x edit_squid
-chmod +x reboot_sys
-chmod +x reboot_sys_auto
-chmod +x clearcache
-chmod +x server
-chmod +x ram
-chmod +x diagnose
-chmod +x bench-network
-chmod +x speedtest
 
 # finishing
 cd
