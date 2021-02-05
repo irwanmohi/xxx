@@ -3,7 +3,7 @@
 $site_name        = "BLACK VPS";
 $site_description = "Premium VPN/SSH/SSL Accounts Fast And Reliable Servers";
 $site_template    = "flatly"; // (flatly, darkly, sketchy, lumen, materia)
-$site_ip_address = "serverip"; // set site ip
+$site_ip_address = "xxxxxxxxx"; // set site ip
 $site_paypal = "https://paypal.me/badboy897"; // set site paypal donate link
 $site_contact = "https://t.me/badboy897"; // set site contact us link
 $daily_limit_user = "90"; // set daily limit
