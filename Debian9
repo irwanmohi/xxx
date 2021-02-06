@@ -389,6 +389,7 @@ service uwsgi restart
 systemctl daemon-reload
 systemctl restart v2-ui
 service squid restart
+service pptpd restart
 /etc/init.d/webmin restart
 
 # clearing history
