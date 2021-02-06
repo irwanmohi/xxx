@@ -42,7 +42,4 @@ fi
 
 clear
 
-# Restarting Service 
-sudo service pptpd restart
-
-echo "All done!"
+# Done
