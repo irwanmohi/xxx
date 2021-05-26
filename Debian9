@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by https://t.me/badboy897
-# Script by Black
+# Script by Badboy
 
 # requirement
 apt-get -y update && apt-get -y upgrade
@@ -206,11 +206,9 @@ apt-get -y install squid
 cat > /etc/squid/squid.conf <<-END
 acl server dst xxxxxxxxx/32 localhost
 #acl checker src 188.93.95.137
-acl ports_ port 14 22 53 21 8080 8081 8000 3128 1193 1194 440 441 442 443 80
-http_port 3128
+acl ports_ port 14 22 53 21 8080 8000 1193 1194 440 441 442 443 80
 http_port 8000
 http_port 8080
-http_port 8888
 access_log none
 cache_log /dev/null
 logfile_rotate 0
@@ -235,20 +233,20 @@ sed -i $MYIP2 /etc/squid/squid.conf;
 service squid restart
 
 # V2-ui Panel Setup
-wget -O /usr/local/v2-ui-linux.tar.gz "https://www.dropbox.com/s/6yoi0gn1vcx6na9/v2-ui-linux.tar.gz"
-cd /usr/local/
-tar zxvf v2-ui-linux.tar.gz
-rm v2-ui-linux.tar.gz -f
-cd v2-ui
-chmod +x v2-ui bin/v2ray-v2-ui bin/v2ctl
-cp -f v2-ui.service /etc/systemd/system/
+#wget -O /usr/local/v2-ui-linux.tar.gz "https://www.dropbox.com/s/6yoi0gn1vcx6na9/v2-ui-linux.tar.gz"
+#cd /usr/local/
+#tar zxvf v2-ui-linux.tar.gz
+#rm v2-ui-linux.tar.gz -f
+#cd v2-ui
+#chmod +x v2-ui bin/v2ray-v2-ui bin/v2ctl
+#cp -f v2-ui.service /etc/systemd/system/
 cd
 
 # Start V2-ui 
-systemctl daemon-reload
-systemctl start v2-ui
-systemctl enable v2-ui
-systemctl status --no-pager v2-ui
+#systemctl daemon-reload
+#systemctl start v2-ui
+#systemctl enable v2-ui
+#systemctl status --no-pager v2-ui
 
 # Install PPTPVPN
 wget https://raw.githubusercontent.com/lanundarat87/xxx/main/Res/Other/install.sh
